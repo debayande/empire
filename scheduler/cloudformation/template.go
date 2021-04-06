@@ -889,7 +889,7 @@ func runTaskResource(role interface{}) troposphere.Resource {
 			"Description": fmt.Sprintf("Lambda function to run an ECS task"),
 			"Handler":     "index.handler",
 			"Role":        role,
-			"Runtime":     "python2.7",
+			"Runtime":     "python3.8",
 			"Code": map[string]interface{}{
 				"ZipFile": runTaskCode,
 			},

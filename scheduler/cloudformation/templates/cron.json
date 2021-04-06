@@ -72,7 +72,7 @@
             ]
           ]
         },
-        "Runtime": "python2.7"
+        "Runtime": "python3.8"
       },
       "Type": "AWS::Lambda::Function"
     },
